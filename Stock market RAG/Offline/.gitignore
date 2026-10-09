@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+data/raw/*.pdf
+data/chroma/*
+!data/chroma/.gitkeep
+logs/*
+!logs/.gitkeep
+eval/report_*.json
